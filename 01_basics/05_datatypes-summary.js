@@ -37,3 +37,28 @@ const myFunction = function(){
 // console.log(typeof scoreValue);
 // console.log(typeof myFunction);
 console.log(typeof heros);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "surajsharma87899"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "suraj@example.com",
+    upi: "suraj@okicici"
+}
+
+let userTwo = userOne
+userTwo.email = "hitesh@879.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
